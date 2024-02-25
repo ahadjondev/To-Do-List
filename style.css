@@ -16,14 +16,15 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #27374D;   
+    background-color: #27374D;   /* change 1 */
 }
 
 .box {
     position: relative;
     width: 450px;
+    /* height: 550px; Remove this line */
     border-radius: 30px;
-    background-color: #526D82;
+    background-color: #526D82; /* change 2 */
     padding: 30px 50px;
     box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25),
     10px 10px 70px rgba(0, 0, 0, 0.25),
@@ -111,7 +112,7 @@ h2 {
     left: 8px;
     width: 30px;
     height: 30px;
-    background: #c9d4da;
+    background: #9DB2BF;
     border-radius: 50%;
 }
 
@@ -119,7 +120,7 @@ h2 {
 
 
 .box li.done {
-    background: #006400;
+    background: #006400; /* CHANGE 1 */
 }
 
 .box li.done::after
@@ -138,10 +139,9 @@ h2 {
 #list {
     position: relative;
     margin-top: 20px;
-    /* height: 350px; Remove this line */
-    height: 350px; /* Add this line */
+    height: 350px; 
     overflow-y: auto;
-    overflow-x: hidden; /* Add this line */
+    overflow-x: hidden; 
     padding-right: 10px;
 }
 ::-webkit-scrollbar-track
