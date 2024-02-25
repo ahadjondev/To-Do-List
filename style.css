@@ -22,9 +22,8 @@ body{
 .box {
     position: relative;
     width: 450px;
-    /* height: 550px; Remove this line */
     border-radius: 30px;
-    background-color: #427D9D;
+    background-color: #526D82;
     padding: 30px 50px;
     box-shadow: 25px 25px 75px rgba(0, 0, 0, 0.25),
     10px 10px 70px rgba(0, 0, 0, 0.25),
